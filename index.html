@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d9e0adc885.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="dashboard">
-        <div class="sidebar">Sidebar</div>
-        <div class="header">Header</div>
-        <div class="content">Content</div>
+      <!-- Sidebar  -->
+      <div class="sidebar">
+        <div class="logoWrapper">
+          <i class="fa-solid fa-vector-square"></i> <span>Dashboard</span>
+        </div>
+
+        <nav>
+          <i class="fa-solid fa-house"></i><span>Home</span>
+          <i class="fa-solid fa-user"></i><span>Profile</span>
+          <i class="fa-solid fa-envelope"></i><span>Messages</span>
+          <i class="fa-solid fa-film"></i><span>History</span>
+          <i class="fa-solid fa-briefcase"></i><span>Tasks</span>
+          <i class="fa-solid fa-users"></i><span>Communities</span>
+        </nav>
+
+        <div class="settingsWrapper">
+          <i class="fa-solid fa-gear"></i><span>Settings</span>
+          <i class="fa-solid fa-print"></i><span>Support</span>
+          <i class="fa-solid fa-eye-slash"></i><span>Privacy</span>
+        </div>
+      </div>
+
+      <!-- Header   -->
+      <div class="header">Header</div>
+
+      <!-- Content  -->
+      <div class="content">Content</div>
     </div>
-</body>
+  </body>
 </html>
