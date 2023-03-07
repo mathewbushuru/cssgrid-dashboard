@@ -83,6 +83,9 @@ body {
   justify-content: flex-end;
   gap: 12px;
 }
+.card .cardActions i:hover{
+    color: var(--primary600);
+}
 
 /* Todo: Add mobile layout styles  */
 
