@@ -41,46 +41,46 @@ body {
 }
 
 .btn {
-    padding: 12px 24px;
-    border: none;
-    border-radius: 20px;
-    background-color: var(--primary600);
-    color: var(--primary50);
-    cursor: pointer;
-    font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--primary600);
+  color: var(--primary50);
+  cursor: pointer;
+  font-weight: 600;
 }
-.btn:hover{
-    background-color: var(--primary500);
+.btn:hover {
+  background-color: var(--primary500);
 }
-.title{
-    font-weight: 600;
-    font-size: 16px;
-    color: #222;
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #222;
 }
-.subTitle{
-    font-weight: 600;
-    font-size: 14px;
-    color: #222;
+.subTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #222;
 }
 .card {
-    background-color: var(--primary50);
-    border-left: 8px solid var(--primary600);
-    border-radius: 8px;
-    font-size: 15px;
-    line-height: 1.25;
-    padding: 18px 12px;
-    color: #666;
-    font-size: 12px;
-    display: grid;
-    grid-template-rows: 20px 110px  20px;
+  background-color: var(--primary50);
+  border-left: 8px solid var(--primary600);
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1.25;
+  padding: 18px 12px;
+  color: #666;
+  font-size: 12px;
+  display: grid;
+  grid-template-rows: 20px 110px 20px;
 }
-.card .cardActions{
-    padding-right: 24px;
-    font-size: 18px;
-    cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-    gap: 12px;
+.card .cardActions {
+  padding-right: 24px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
 }
 
 /* Todo: Add mobile layout styles  */
@@ -117,7 +117,7 @@ body {
     font-size: 16px;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: repeat(2,300px);
+    grid-template-rows: repeat(2, 300px);
     gap: 18px;
   }
 
@@ -142,13 +142,13 @@ body {
     cursor: pointer;
   }
 
-  .header .searchBar{
+  .header .searchBar {
     padding: 36px;
     display: flex;
     align-items: center;
     gap: 18px;
   }
-  .header .searchBar .searchInput{
+  .header .searchBar .searchInput {
     flex: 1;
     border: none;
     border-radius: 24px;
@@ -156,10 +156,10 @@ body {
     padding: 12px 18px;
     font: inherit;
   }
-  .header .searchBar .searchInput:focus{
+  .header .searchBar .searchInput:focus {
     outline: none;
   }
-  .header .profile{
+  .header .profile {
     padding: 36px;
     font-size: 16px;
     font-weight: 600;
@@ -168,7 +168,7 @@ body {
     justify-content: flex-end;
     gap: 24px;
   }
-  .header .profile i{
+  .header .profile i {
     font-size: 20px;
   }
   .header .greeting {
@@ -177,11 +177,11 @@ body {
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 50px auto;
-    grid-template-rows: repeat(2,25px);
+    grid-template-rows: repeat(2, 25px);
     column-gap: 20px;
     row-gap: 6px;
   }
-  .header .greeting img{
+  .header .greeting img {
     grid-row: 1/3;
     align-self: center;
   }
@@ -212,14 +212,14 @@ body {
     grid-row: 2/3;
     grid-column: 2/3;
   }
-    
-  .content .projectsWrapper  {
+
+  .content .projectsWrapper {
     max-height: 86%;
     padding: 18px 0;
     padding-right: 14px;
     overflow: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
   .content .announcementsWrapper {
@@ -233,9 +233,39 @@ body {
     overflow: auto;
     border-radius: 8px;
   }
-  .content  .announcement{
+  .content .announcement {
     padding-bottom: 9px;
     border-bottom: 1px solid #999;
     margin-bottom: 12px;
+  }
+  .content .trendingWrapper {
+    background-color: var(--primary50);
+    margin-top: 18px;
+    padding: 18px 24px;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #666;
+    max-height: 60%;
+    overflow: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .content .trend {
+    display: grid;
+    grid-template-columns: 40px auto;
+    row-gap: 4px;
+  }
+  .content .trend img {
+    grid-row: 1/3;
+    align-self: center;
+  }
+  .content .trendUsername {
+    grid-column: 2/3;
+    color: #222;
+  }
+  .content .trendDesc {
+    grid-column: 2/3;
   }
 }
