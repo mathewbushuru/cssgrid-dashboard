@@ -57,10 +57,15 @@ body {
     font-size: 16px;
     color: #222;
 }
+.subTitle{
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+}
 .card {
     background-color: var(--primary50);
     border-left: 8px solid var(--primary600);
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 15px;
     line-height: 1.25;
     padding: 18px 12px;
@@ -216,5 +221,21 @@ body {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
+  }
+  .content .announcementsWrapper {
+    background-color: var(--primary50);
+    margin-top: 18px;
+    padding: 18px 24px;
+    font-size: 11px;
+    line-height: 1.25;
+    color: #666;
+    max-height: 75%;
+    overflow: auto;
+    border-radius: 8px;
+  }
+  .content  .announcement{
+    padding-bottom: 9px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 12px;
   }
 }
