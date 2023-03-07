@@ -54,14 +54,31 @@ body {
 }
 .title{
     font-weight: 600;
+    font-size: 16px;
+    color: #222;
 }
 .card {
     background-color: var(--primary50);
     border-left: 8px solid var(--primary600);
     border-radius: 5px;
-    font-size: 14px;
-    padding: 18px 9px;
+    font-size: 15px;
+    line-height: 1.25;
+    padding: 18px 12px;
+    color: #666;
+    font-size: 12px;
+    display: grid;
+    grid-template-rows: 20px 110px  20px;
 }
+.card .cardActions{
+    padding-right: 24px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+/* Todo: Add mobile layout styles  */
 
 @media screen and (min-width: 500px) {
   .dashboard {
